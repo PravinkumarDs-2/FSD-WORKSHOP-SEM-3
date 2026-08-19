@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: 500px;
+    background-position: -1500px -1000px;
+    
+}
+
+#form{
+    width: 100px;
+    height: 200px;
+    border: 20px solid blue;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: rgb(40, 194, 245);
+    color: tomato;
+    box-shadow: -3px 3px 10px #000;
+
+    
+    
+}
+p.input{
+    font-size: 20px;
+}
+
+input{
+    width: 100px;
+    border: 1px solid violet;
+    border-radius: 15px;
+    background-color: aquamarine;
+    box-shadow: inset -3px -3px 10px #000;
+}
