@@ -26,6 +26,6 @@ input{
     width: 100px;
     border: 1px solid violet;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: rgb(240, 243, 242);
     box-shadow: inset -3px -3px 10px #000;
 }

@@ -11,12 +11,13 @@
         <div id="form">
             <div id="h1">keyboardevents</div>
             <p>onkeydown</p>
-            <input type="text">
-             <p>onkeyup</p>
-            <input type="text">
-             <p>onkeypress</p>
-            <input type="text">
-        </div>
-    
+            <input type="text" onkeydown="document.getElementById('form').style.background=this.value">
+            <p>onkeyup</p>
+            <input type="text" onkeyup="document.getElementById('form').style.background=this.value">
+            <p>onkeypress</p>
+            <input type="text" onkeypress="document.getElementById('form').style.background=this.value">
+            <form>
+            
+            </form>
 </body>
 </html>
