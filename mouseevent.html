@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOUSE EVENT</title>
+    <style>
+        #box{
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            margin: 200px 0 0 100px;
+            border: 5px solid red;
+        }
+    </style>
+    <script>
+        function eventcall(){
+            alert('These are mouse events')
+        }
+         function events(){
+            alert('These are second mouse events')
+        }
+    </script>
+</head>
+<body>
+    <div id="box" onmouseup="eventcall()">This is section A</div>
+    <p id="para" onmouseout="eventcall()"> this is fsd training class </p>
+</body>
+</html>
