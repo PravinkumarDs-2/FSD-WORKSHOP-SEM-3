@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Challenge</title>
+  <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Quiz Challenge</h2>
+    <label>Name: <input type="text" placeholder="Enter your name" id="name"></label><br>
+    <label>Roll No: <input type="text" placeholder="Enter your Roll no." id="roll"></label><br>
+    <label>Section:
+      <input type="radio" name="section" value="A">A
+      <input type="radio" name="section" value="B">B
+      <input type="radio" name="section" value="C">C
+    </label><br><br>
+    <button id="startBtn">Start Quiz</button>
+
+    <form id="quizForm" style="display:none;">
+      <div class="question">
+        <p>Q1: What is br tag used for? (2 marks)</p>
+        <label><input type="radio" name="q1" value="Line break">Line break</label>
+        <label><input type="radio" name="q1" value="paragraph">paragraph</label>
+        <label><input type="radio" name="q1" value="division">division</label>
+        <label><input type="radio" name="q1" value="section">section</label>
+      </div>
+
+      <div class="question">
+        <p>Q2: 1000-500/2=? (1 mark)</p>
+        <label><input type="radio" name="q2" value="300">300</label>
+        <label><input type="radio" name="q2" value="250">250</label>
+        <label><input type="radio" name="q2" value="750">750</label>
+        <label><input type="radio" name="q2" value="0">0</label>
+      </div>
+
+      <div class="question">
+        <p>Q3: LLM stands for? (2 marks)</p>
+        <label><input type="radio" name="q3" value="Low Language Model">Low Language Model</label>
+        <label><input type="radio" name="q3" value="Large Loading Model">Large Loading Model</label>
+        <label><input type="radio" name="q3" value="Large Langauge Model">Large Langauge Model</label>
+        <label><input type="radio" name="q3" value="Large Loading Manupulation">Large Loading Manupulation</label>
+      </div>
+
+      <div class="question">
+        <p>Q4: HTML stands for? (3 marks)</p>
+        <label><input type="radio" name="q4" value="Hyper Text Markup Language">Hyper Text Markup Language</label>
+        <label><input type="radio" name="q4" value="High Text Machine Language">High Text Machine Language</label>
+        <label><input type="radio" name="q4" value="Hyperlinks Text Mark Language">Hyperlinks Text Mark Language</label>
+        <label><input type="radio" name="q4" value="None">None</label>
+      </div>
+
+      <div class="navBtns">
+        <button type="button" id="prevBtn">Previous</button>
+        <button type="button" id="nextBtn">Next</button>
+        <button type="button" id="submitBtn">Submit</button>
+      </div>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  <script src="Quiz.js"></script>
+</body>
+</html>
